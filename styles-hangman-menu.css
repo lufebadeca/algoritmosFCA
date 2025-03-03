@@ -5,18 +5,18 @@ body {
 }
 
 /* *{
-    border: 1px dashed red;
-} */
+    border: 0.25px dashed red;
+}  */
 
 .container-menu{
     margin: auto auto;
     background-image: url("./pictures/sky.jpg"); 
     background-size: cover;
-    height: calc(100vh - 85px);
+    height: calc(100vh - 74px);
     display: flex;
     flex-direction: column;
-
 }
+
 .menu{
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ body {
 .categories-div{
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .categories img{
@@ -106,7 +106,7 @@ body {
     padding: 0px;
 }
 .active-button{
-    background-color: rgb(194, 21, 237)!important;
+    background-color: #0198fc!important;
     box-shadow: 5px 5px 5px 3px rgba(25, 17, 103, 0.492);
     filter:opacity(100%);
 }
@@ -115,7 +115,3 @@ body {
     transform: scale(1.2);
 }
 
-.shark{
-    width: 100px;
-    
-}
